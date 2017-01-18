@@ -1,7 +1,71 @@
 /* Additional styles */
+.navbar-default {
+  background-color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: dodgerblue;
+}
+
+.nav.navbar-nav li a {
+     color: dodgerblue !important;
+ }
+ .nav .navbar-nav li a:hover {
+     color: dodgerblue !important;
+ }
+
+.navbar-brand {
+  color: dodgerblue;
+}
+
+.extendfull, .extendleft
+{
+	padding-left: 3000px;
+	margin-left: -3000px;
+}
+
+.extendfull, .extendright
+{
+	padding-right: 3000px;
+	margin-right: -3000px;
+}
+
+.core-body h1 {
+  font-weight: 200;
+}
+
+.core-body h2{
+  font-weight: 200;
+}
+
+.core-body p {
+  font-size: 145%;
+}
+
+.core-body {
+  font-weight: 200;
+  line-height: 250%;
+}
+
+.get-started-now {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+footer h4 {
+  font-weight: bold;
+}
+
+footer {
+  color: gray;
+  line-height: 200%;
+  font-weight: 500;
+}
 
 body {
   font-family: "Open Sans";
+  background-color: #FBFBFB;
+  overflow-x: hidden;
 }
 
 /* My standard vertical spacing classes */
